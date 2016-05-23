@@ -9,7 +9,7 @@ _train = pd.read_csv(train_file)
 _test = pd.read_csv(test_file)
 print(_train)
 print(dir(_train))
-
+#
 #dtrain = xgb.DMatrix(_train)
 #dtest = xgb.DMatrix(_test)
 #print(dtrain.get_label())
