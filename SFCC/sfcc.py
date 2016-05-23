@@ -7,9 +7,12 @@ train_file = '../../dataset/SFCC/train.csv'
 test_file = '../../dataset/SFCC/test.csv'
 _train = pd.read_csv(train_file)
 _test = pd.read_csv(test_file)
-print(_train)
-print(dir(_train))
-#
+
+#print header
+print(_train.head(0))
+print(_test.head(1))
+
+
 #dtrain = xgb.DMatrix(_train)
 #dtest = xgb.DMatrix(_test)
 #print(dtrain.get_label())
